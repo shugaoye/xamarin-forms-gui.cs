@@ -54,8 +54,10 @@ namespace Terminal.Gui.Forms.Renderers
 
             var consoleColor = textColor.ToConsoleColor();
 
-            // TODO: TextColor is removed from Label in version v1.0.0-beta.10
-            //Control.TextColor = AttributeHelper.MakeColor(consoleColor, ConsoleColor.Blue); 
+            Control.ColorScheme = new ColorScheme()
+            {
+                Normal = AttributeHelper.MakeColor(consoleColor, ConsoleColor.Blue)
+            };
         }
     }
 }

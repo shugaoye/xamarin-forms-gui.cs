@@ -8,7 +8,7 @@ using NStack;
 
 namespace Terminal.Gui.Forms
 {
-    class Platform : BindableObject, IPlatform, INavigation, IDisposable
+    class Platform : BindableObject, INavigation, IDisposable
     {
         bool _disposed;
 
@@ -134,7 +134,7 @@ namespace Terminal.Gui.Forms
 
             Page = newRoot;
 
-            Page.Platform = this;
+            // Page.Platform = this;
             AddChild(Page);
 
             Page.DescendantRemoved += HandleChildRemoved;

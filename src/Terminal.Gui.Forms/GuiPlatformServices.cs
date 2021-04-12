@@ -127,7 +127,7 @@ namespace Terminal.Gui.Forms
 
         public string GetHash(string input)
         {
-            throw new NotImplementedException();
+            return GetMD5Hash(input);
         }
     }
 }
