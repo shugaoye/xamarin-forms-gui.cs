@@ -9,7 +9,9 @@
     <PackageReference Include="NStack.Core" Version="0.16.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
-    <PackageReference Include="Terminal.Gui" Version="1.0.0-beta.11" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\gui.cs\Terminal.Gui\Terminal.Gui.csproj" />
   </ItemGroup>
 </Project>

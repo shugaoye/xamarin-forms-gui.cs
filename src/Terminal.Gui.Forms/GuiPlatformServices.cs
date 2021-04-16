@@ -112,6 +112,9 @@ namespace Terminal.Gui.Forms
 
         public void QuitApplication()
         {
+            Application.Top.Running = false;
+
+            System.Diagnostics.Debug.WriteLine("GuiPlatformServices: QuitApplication.");
         }
 
         public Xamarin.Forms.Color GetNamedColor(String name)

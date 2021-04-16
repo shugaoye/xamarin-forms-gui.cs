@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Terminal.Gui.Forms", "Termi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Terminal.Gui.Forms.Sample", "Terminal.Gui.Forms.Sample\Terminal.Gui.Forms.Sample.csproj", "{001DDB75-EEBF-4CBF-A5E8-BB8631829D9D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Terminal.Gui", "..\..\gui.cs\Terminal.Gui\Terminal.Gui.csproj", "{B9CB90F7-A07A-4F3B-9707-AD8156E9A553}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{001DDB75-EEBF-4CBF-A5E8-BB8631829D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{001DDB75-EEBF-4CBF-A5E8-BB8631829D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{001DDB75-EEBF-4CBF-A5E8-BB8631829D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CB90F7-A07A-4F3B-9707-AD8156E9A553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CB90F7-A07A-4F3B-9707-AD8156E9A553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CB90F7-A07A-4F3B-9707-AD8156E9A553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CB90F7-A07A-4F3B-9707-AD8156E9A553}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
